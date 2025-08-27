@@ -47,14 +47,19 @@
                         class="lg:h-[72px] lg:w-[72px] h-[54px] w-[54px]">
                 </a>
                 <nav class="lg:space-x-7 space-x-2">
-                    <a href="tel:0659951466" class="hover:text-green-700"><i class="fa-solid fa-phone"></i>
+                    <a href="tel:0659951466" aria-label="Phone Number: 0659951466" class="hover:text-green-700"><i
+                            class="fa-solid fa-phone"></i>
                         <span class="ml-1 lg:inline ">
                             +66 65995-1466</span>
                     </a>
                     <span>|</span>
-                    <a href="mailto:info@royalthaiseeds.com" class="hover:text-green-700"><i
-                            class="fa-solid fa-envelope"></i> <span
-                            class="ml-1 lg:inline hidden">royalthaiseeds@gmail.com</span></a>
+
+                    <a href="mailto:info@royalthaiseeds.com" class="hover:text-green-700 flex items-center space-x-2"
+                        aria-label="Email: info@royalthaiseeds.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="sr-only">Send email to info@royalthaiseeds.com</span>
+                    </a>
+
                 </nav>
             </div>
         </header>
@@ -66,11 +71,12 @@
                 SMALL SEED, <br>
                 BIG IMPACT</h1>
             <p class="text-xl lg:text-4xl mb-6 lg:tracking-[8px]">Where small seed can grow into large</p>
-            <a href="#about"
-                class="bg-[#52913b] hover:border-[#52913b] border-[2px] hover:text-[#52913b] hover:font-bold border-[#52913b] hover:bg-transparent text-white py-3 px-6">
+            <a href="#about" class="bg-[#2f6e1f] text-white font-bold text-lg 
+          hover:bg-white hover:text-[#2f6e1f] 
+          border-2 border-[#2f6e1f] 
+          py-3 px-6 transition-colors duration-300">
                 EXPLORE
             </a>
-
         </div>
     </section>
 
@@ -131,7 +137,7 @@
                 creative
                 opportunities and how we can help you.</p>
             <a href="mailto:info@royalthaiseeds.com"
-                class="bg-[#52913b] hover:border-white border-[2px] border-[#52913b] hover:bg-transparent text-white py-3 px-6 transition-colors duration-300">GET
+                class="bg-[#52913b] hover:border-white border-[2px] font-bold border-[#52913b] hover:bg-transparent text-white py-3 px-6 transition-colors duration-300">GET
                 IN
                 TOUCH</a>
         </section>
@@ -141,13 +147,17 @@
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto flex lg:justify-between justify-center px-4 text-center">
             <nav class="lg:space-x-7 space-x-2 lg:inline hidden">
-                <a href="tel:0659951466"><i class="fa-solid fa-phone"></i>
+                <a href="tel:0659951466" aria-label="Phone Number: 0659951466"><i class="fa-solid fa-phone"></i>
                     <span class="ml-1 lg:inline ">
                         +66 65995-1466</span>
                 </a>
                 <span>|</span>
-                <a href="mailto:info@royalthaiseeds.com"><i class="fa-solid fa-envelope"></i>
-                    <span class="ml-1 lg:inline hidden">royalthaiseeds@gmail.com</span></a>
+
+                <a href="mailto:info@royalthaiseeds.com" class=" flex items-center space-x-2"
+                    aria-label="Email: info@royalthaiseeds.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="sr-only">Send email to info@royalthaiseeds.com</span>
+                </a>
             </nav>
             <p>©2024 Royal Thai Seeds. All rights reserved.</p>
         </div>
